@@ -49,6 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void getUsers() async {
+    userResponse.clear();
     setState(() {
       isLoading = true;
     });
